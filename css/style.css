@@ -60,7 +60,7 @@
 }
 #home::before{
     content: "";
-    background: url(https://getwallpapers.org/wp-content/uploads/2021/11/Apple-Desktop-Wallpaper-4k.jpg) no-repeat center center/cover;
+    background: url(/Apple-background.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
