@@ -60,7 +60,7 @@
 }
 #home::before{
     content: "";
-    background: url(/Apple-background.jpg) no-repeat center center/cover;
+    background: url(../apple-background.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
