@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS veriable */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* navbar logo and image */
+.logo{
+    margin: 5px 20px;
+}
+.logo img{
+    width: 150px;
+    margin: 5px 5px;
+   }
+/* navbar list stype */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .4;
+}
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(/Apple-background.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    opacity: .54;
+}
+/* utility class  */
+.h-primary{
+    font-size: 2.5rem;
+    padding: 15px;
+}
